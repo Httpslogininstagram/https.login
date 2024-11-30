@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import check_password_hash
+import os
 
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
@@ -14,13 +15,20 @@ class User(db.Model):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # Verifica se está em ambiente de produção ou local
+    if os.getenv('FLASK_ENV') == 'production':
+        # GitHub Pages - carrega o index.html da raiz
+        with open('index.html') as f:
+            return f.read()
+    else:
+        # Ambiente local - carrega o index.html da pasta templates
+        return render_template('index.html')
 
 @app.route('/login', methods=['POST'])
 def login():
     username = request.form['email']
     password = request.form['password']
-    print(f"Username: {username}, Password: {password}")  # Para depuração, remove depois de testar
+    print(f"Username: {username}, Password: {password}")  # Para depuração, remova depois de testar
     user = User.query.filter_by(username=username).first()
     if user and check_password_hash(user.password, password):
         session['user_id'] = user.id
