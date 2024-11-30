@@ -1,0 +1,49 @@
+[33mcommit 234e1ce17a6cba9ecbfa416554b7bc7da6def656[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Geilson9 <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 10:50:35 2024 -0300
+
+    Corrigindo caminhos das imagens no HTML
+
+[33mcommit 2a63154620b0d3c2d391639be93952f7f61d80fd[m
+Author: Geilson9 <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 10:40:46 2024 -0300
+
+    Atualizando index.html e estrutura do projeto
+
+[33mcommit e6dfddbce1549c07a257628114c6a4e9ff97f89e[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 69d40a3 78b783a
+Author: Geilson9 <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 10:32:49 2024 -0300
+
+    Resolvendo conflitos de merge
+
+[33mcommit 69d40a3e82545dc4bd981e646493ab0a70e74410[m
+Author: Geilson9 <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 10:18:38 2024 -0300
+
+    Movendo index.html para a raiz do projeto
+
+[33mcommit 78b783a8c9981dc3ab447e5bd679fb271725f036[m
+Author: Httpslogininstagram <html.instagram.login@gmail.com>
+Date:   Sat Nov 30 10:06:52 2024 -0300
+
+    Create static.yml
+
+[33mcommit b791823c0d2f8a62b849d55062fd1dc4ab1e3831[m
+Merge: 069bdf0 fd8016d
+Author: Geilson9 <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 09:59:44 2024 -0300
+
+    Resolvendo conflitos de merge
+
+[33mcommit fd8016dc253a4c916518a6608ea68c5819e3b326[m
+Author: Httpslogininstagram <html.instagram.login@gmail.com>
+Date:   Sat Nov 30 09:29:52 2024 -0300
+
+    Initial commit
+
+[33mcommit 069bdf06bc68c82c7f9f06a70bd25bb07b8c811b[m
+Author: Geilson Santos <geilsonsantos084@gmail.com>
+Date:   Sat Nov 30 00:15:44 2024 -0300
+
+    Initial commit
