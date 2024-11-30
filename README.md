@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # :copyright: Instagram clone Login Page
 
 - A responsive login page from Instagram with HTML and CSS (flexbox)
@@ -18,3 +19,6 @@
 ## :muscle: Inspiração
 
 Bootcamp Javascript Game Developer from Digital Innovation One
+=======
+# https.login
+>>>>>>> fd8016dc253a4c916518a6608ea68c5819e3b326
